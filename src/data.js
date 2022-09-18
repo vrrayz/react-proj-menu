@@ -2,7 +2,7 @@ export const menuOptions = ["all", "breakfast", "lunch", "shakes"];
 export const menuItems = [
   {
     id: 1,
-    option: "",
+    option: "breakfast",
     name: "Buttermilk Pancakes",
     img: "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
     price: "15",
@@ -11,7 +11,7 @@ export const menuItems = [
   },
   {
     id: 2,
-    option: "",
+    option: "lunch",
     name: "Diner Double",
     img: "https://images.unsplash.com/photo-1460306855393-0410f61241c7",
     price: "15",
@@ -20,7 +20,7 @@ export const menuItems = [
   },
   {
     id: 3,
-    option: "",
+    option: "shakes",
     name: "Godzilla Milkshake",
     img: "https://images.pexels.com/photos/2638026/pexels-photo-2638026.jpeg",
     price: "15",
@@ -29,7 +29,7 @@ export const menuItems = [
   },
   {
     id: 4,
-    option: "",
+    option: "breakfast",
     name: "Country Delight",
     img: "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg",
     price: "15",
@@ -38,7 +38,7 @@ export const menuItems = [
   },
   {
     id: 5,
-    option: "",
+    option: "lunch",
     name: "Egg Attack",
     img: "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg",
     price: "15",
@@ -47,7 +47,7 @@ export const menuItems = [
   },
   {
     id: 6,
-    option: "",
+    option: "shakes",
     name: "Oreo Dream",
     img: "https://images.pexels.com/photos/3727250/pexels-photo-3727250.jpeg",
     price: "15",
@@ -56,7 +56,7 @@ export const menuItems = [
   },
   {
     id: 7,
-    option: "",
+    option: "breakfast",
     name: "Bacon Overflow",
     img: "https://images.pexels.com/photos/139746/pexels-photo-139746.jpeg",
     price: "15",
@@ -65,7 +65,7 @@ export const menuItems = [
   },
   {
     id: 8,
-    option: "",
+    option: "lunch",
     name: "American Classic",
     img: "https://images.pexels.com/photos/551991/pexels-photo-551991.jpeg",
     price: "15",
@@ -74,7 +74,7 @@ export const menuItems = [
   },
   {
     id: 9,
-    option: "",
+    option: "shakes",
     name: "Quarantine Buddy",
     img: "https://www.onlineinterracialdatingsites.com/images/articleimages/interracial-dating-covid-19.jpg",
     price: "15",
