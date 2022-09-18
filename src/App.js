@@ -1,4 +1,4 @@
-import { menuOptions } from "./data";
+import { menuOptions, menuItems } from "./data";
 import MenuItem from "./components/MenuItem";
 
 function App() {
@@ -18,7 +18,9 @@ function App() {
         })}
       </div>
       <div className="row">
-          <MenuItem />
+          {menuItems.map(item => {
+            return <MenuItem key={item.id} item={item} />
+          })}
       </div>
     </div>
   );
